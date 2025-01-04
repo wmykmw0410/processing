@@ -52,6 +52,7 @@ def draw():
 ```
 ### 成功例1
 ```python
+score = 0
 
 def setup():
     size(300, 100)
@@ -60,7 +61,7 @@ def setup():
 def draw():
     global score # global命令を追加する
     background(200)
-    score = score + 1　# ローカル変数
+    score = score + 1 # ローカル変数
     text("score:"+str(score), 20, 50)
 ```
 # 問題
